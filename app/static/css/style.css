@@ -1,1 +1,44 @@
 
+body {
+    background: black;
+    color:white;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+    .header-logo {
+        height: 150px;
+    }
+
+    .info{
+        text-align: center;
+
+    }
+
+.item-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2rem 0 0 0;
+}
+    
+.item-container-subitem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+
+    border-color: var(--color-text);
+
+
+
+
+}
